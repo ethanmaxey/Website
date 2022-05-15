@@ -1,6 +1,7 @@
 body {
 	margin: 0;
-	background: #25274D;
+	background-image: linear-gradient(#25274D, 50%, #29648A);
+	/*background: #25274D;*/
 	font-family: "Helvetica";
 	font-weight: 700;
 	font-size: 18;
@@ -13,7 +14,7 @@ body {
 
 header {
 	color: #ffffff;
-	background: #29648A;
+	/*background: #29648A;*/
 	border: solid 0px #000000;
 }
 
@@ -63,7 +64,7 @@ nav a:before {
 	background-color:#AAABB8;
 	
 	position: absolute;
-	top: 10px;
+	top: 23px;
 	width: 0%;
 	
 	transition: all ease-in-out 200ms;
@@ -76,11 +77,11 @@ nav a:hover:before {
 #main {
 	width: 1000px;
 	height: auto;
-	background: #25274D;
+	/*background: #25274D;*/
 	margin: 50px auto;
 	border: solid 2px #FFFFFF;
 	padding: 50px;
-	color: #AAABB8;
+	color: #FFFFFF;
 }
 
 /* Style all font awesome icons */
@@ -124,7 +125,7 @@ nav a:hover:before {
 
 hr {
 	border: solid;
-	color: #AAABB8;
+	color: #FFFFFF;
 }
 
 p {
@@ -146,12 +147,12 @@ p {
 #education {
 	width: 1000px;
 	height: auto;
-	background: #AAABB8;
+	/*background: #25274D;*/
 	margin: 25px auto;
-	/*border: solid 2px #000000;*/
+	border: solid 2px #FFFFFF;
 	padding: 50px;
 	text-align: left;
-	color: 3a3b3c;
+	color: #FFFFFF;
 }
 
 h3 {
@@ -167,23 +168,23 @@ img {
 #projects {
 	width: 1000px;
 	height: auto;
-	background: #AAABB8;
+	/*background: #25274D;*/
 	margin: 50px auto;
-	/*border: solid 2px #000000;*/
+	border: solid 2px #FFFFFF;
 	padding: 50px;
 	text-align: left;
-	color: #3a3b3c;
+	color: #FFFFFF;
 }
 
 #work {
 	width: 1000px;
 	height: auto;
-	background: #AAABB8;
+	/*background: #25274D;*/
 	margin: 50px auto;
-	/*border: solid 2px #000000;*/
+	border: solid 2px #FFFFFF;
 	padding: 50px;
 	text-align: left;
-	color: #3a3b3c;
+	color: #FFFFFF;
 }
 
 h3 {
