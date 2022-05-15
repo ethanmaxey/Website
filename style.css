@@ -1,8 +1,9 @@
 body {
 	margin: 0;
 	background: #25274D;
-	font-family: "LEAGUE GOTHIC REGULAR";
+	font-family: "Helvetica";
 	font-weight: 700;
+	font-size: 18;
 }
 
 .container {
@@ -51,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #25274D;
+	color: #AAABB8;
 }
 
 nav a:before {
@@ -59,7 +60,7 @@ nav a:before {
 	display: block;
 	height: 5px;
 	width: 100%;
-	background-color:#25274D;
+	background-color:#AAABB8;
 	
 	position: absolute;
 	top: 10px;
@@ -75,11 +76,11 @@ nav a:hover:before {
 #main {
 	width: 1000px;
 	height: auto;
-	background: #AAABB8;
+	background: #25274D;
 	margin: 50px auto;
-	border: solid 2px #000000;
+	border: solid 2px #FFFFFF;
 	padding: 50px;
-	color: #3A3B3C;
+	color: #AAABB8;
 }
 
 /* Style all font awesome icons */
@@ -123,7 +124,7 @@ nav a:hover:before {
 
 hr {
 	border: solid;
-	color: #3a3b3c;
+	color: #AAABB8;
 }
 
 p {
@@ -147,7 +148,7 @@ p {
 	height: auto;
 	background: #AAABB8;
 	margin: 25px auto;
-	border: solid 2px #000000;
+	/*border: solid 2px #000000;*/
 	padding: 50px;
 	text-align: left;
 	color: 3a3b3c;
@@ -168,7 +169,7 @@ img {
 	height: auto;
 	background: #AAABB8;
 	margin: 50px auto;
-	border: solid 2px #000000;
+	/*border: solid 2px #000000;*/
 	padding: 50px;
 	text-align: left;
 	color: #3a3b3c;
@@ -179,7 +180,7 @@ img {
 	height: auto;
 	background: #AAABB8;
 	margin: 50px auto;
-	border: solid 2px #000000;
+	/*border: solid 2px #000000;*/
 	padding: 50px;
 	text-align: left;
 	color: #3a3b3c;
