@@ -1,22 +1,13 @@
 body {
 	margin: 0;
 	background-image: linear-gradient(#25274D, #29648A 60%, #25274D);
-	/*background: #25274D;*/
 	font-family: "Helvetica";
-	font-weight: 700;
-	font-size: 18;
+	font-weight: 550;
 }
 
 .container {
 	width: 80%;
 	margin: 0 auto;
-}
-
-header {
-	color: #ffffff;
-	/*background: #29648A;*/
-	background-color
-	border: solid 0px #000000;
 }
 
 header::after {
@@ -50,7 +41,8 @@ nav li {
 nav a {
 	color: #ffffff;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 16px;
+
 }
 
 nav a:hover {
@@ -78,14 +70,11 @@ nav a:hover:before {
 #main {
 	width: 1000px;
 	height: auto;
-	/*background: #25274D;*/
 	margin: 50px auto;
 	border: solid 2px #FFFFFF;
 	border-radius: 25px;
 	padding: 50px;
 	color: #FFFFFF;
-	/*background-color: #000;
-    opacity: .4;*/
     background-color: rgba(0,0,0,.5);
 }
 
@@ -134,7 +123,7 @@ hr {
 }
 
 p {
-	font-family:"Calibri";
+	font-family:"Helvetica";
 	font-size: 12pt;
 	text-align: left;
 	text-indent: 48px;
@@ -152,7 +141,6 @@ p {
 #education {
 	width: 1000px;
 	height: auto;
-	/*background: #25274D;*/
 	margin: 25px auto;
 	border: solid 2px #FFFFFF;
 	padding: 50px;
@@ -175,7 +163,6 @@ img {
 #projects {
 	width: 1000px;
 	height: auto;
-	/*background: #25274D;*/
 	margin: 50px auto;
 	border: solid 2px #FFFFFF;
 	padding: 50px;
@@ -187,12 +174,9 @@ img {
 
 #work {
 	width: 1000px;
-	height: auto;
-	/*background: #25274D;*/
 	margin: 50px auto;
 	border: solid 2px #FFFFFF;
 	padding: 50px;
-	text-align: left;
 	color: #FFFFFF;
 	border-radius: 25px;
 	background-color: rgba(0,0,0,.5);
